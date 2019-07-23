@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "462539335773",
+    "firebase_url": "https://vaigau.firebaseio.com",
+    "project_id": "vaigau",
+    "storage_bucket": "vaigau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462539335773:android:c48088701a45d3ad",
+        "android_client_info": {
+          "package_name": "com.example.vaigau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462539335773-v2035qicqbn6814qreufd9tmbmqvcqe6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvPc2n2hPwhMkyJKFRzXbXySQsauS-H88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462539335773-v2035qicqbn6814qreufd9tmbmqvcqe6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaigau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".skindepletion" />
+        <activity android:name=".skinbasic" />
+        <activity android:name=".skincare" />
+        <activity android:name=".bodycare" />
+        <activity android:name=".treatment" />
+        <activity android:name=".haircut" />
+        <activity android:name=".styling" />
+        <activity android:name=".colour" />
+        <activity android:name=".care" />
+        <activity android:name=".forms" />
+        <activity android:name=".handsfeet" />
+        <activity android:name=".makeup" />
+        <activity android:name=".hair" />
+        <activity android:name=".skin" />
+        <activity android:name=".contact_us" />
+        <activity android:name=".about_us" />
+        <activity android:name=".gallery" />
+        <activity android:name=".offers" />
+        <activity android:name=".appoint" />
+        <activity android:name=".services" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

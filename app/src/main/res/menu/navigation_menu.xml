@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="HOME"
+    android:icon="@drawable/ic_home_black_24dp"
+    />
+    <item
+        android:id="@+id/service"
+        android:title="OUR SERVICES"
+        android:icon="@drawable/ic_service_extension_black_24dp"
+        />
+    <item
+        android:id="@+id/appoint"
+        android:title="BOOK AN APPOINTMENT"
+        android:icon="@drawable/ic_book_black_24dp"
+        />
+    <item
+        android:id="@+id/off"
+        android:title="OFFERS"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+        />
+    <item
+        android:id="@+id/gal"
+        android:title="GALLERY"
+        android:icon="@drawable/ic_menu_gallery"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="ABOUT US"
+        android:icon="@drawable/ic_about_black_24dp"
+        />
+    <item
+        android:id="@+id/con"
+        android:title="CONTACT US"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="LOGOUT"
+        android:icon="@drawable/logout"
+        />
+</menu>
