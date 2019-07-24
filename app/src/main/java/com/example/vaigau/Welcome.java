@@ -64,6 +64,9 @@ public class Welcome extends AppCompatActivity {
                        Intent e = new Intent(Welcome.this,contact_us.class);
                        startActivity(e);
                        break;
+                   case R.id.logout:
+                       Intent g = new Intent(Welcome.this,Logout.class);
+                       startActivity(g);
                }
 
                 return true;
@@ -78,7 +81,6 @@ public class Welcome extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         // super.onBackPressed();
-        FirebaseAuth.getInstance().signOut();
         new AlertDialog.Builder(Welcome.this).setIcon(R.mipmap.ic_launcher_round)
                 .setTitle("VAIGAU")
                 .setMessage("DO YOU WANGT TO CLOSE THE APPLICATION ?")
