@@ -14,8 +14,8 @@ import android.widget.ImageView;
 public class services extends AppCompatActivity {
 GridView lv;
 ImageView im;
-String services[]={"SKIN","HAIR","MAKE-UP","HANDS&FEET"};
-Integer image[]={R.drawable.skincare,R.drawable.hair,R.drawable.makeup,R.drawable.handf};
+String services[]={"HAIR","SKIN","MAKE-UP","HANDS&FEET"};
+Integer image[]={R.drawable.hair,R.drawable.skincare,R.drawable.makeup,R.drawable.handf};
 
 
 
@@ -56,7 +56,6 @@ Integer image[]={R.drawable.skincare,R.drawable.hair,R.drawable.makeup,R.drawabl
                     case 3:
                         Intent c = new Intent(services.this,handsfeet.class);
                         startActivity(c);
-
                         break;
                 }
             }

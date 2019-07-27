@@ -2,47 +2,59 @@ package com.example.vaigau;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
 public class hair extends AppCompatActivity {
-    ListView lv;
-    String hair[]={"FORMS","HAIR-CARE","COLOUR","STYLING","HAIR-CUT"};
-    Integer image[]={R.drawable.hairform,R.drawable.carehair,R.drawable.colorhair,R.drawable.hairstyling,R.drawable.haircut};
+    //String hair[]={"FORMS","HAIR-CARE","COLOUR","STYLING","HAIR-CUT"};
+    //Integer image[]={R.drawable.hairform,R.drawable.carehair,R.drawable.colorhair,R.drawable.hairstyling,R.drawable.haircut};
+    private CardView hfa,hca,hcoa,hsa,hcua;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hair);
-        lv=findViewById(R.id.list);
-        Custom cs = new Custom(hair.this,hair,image);
-        lv.setAdapter(cs);
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        hfa = findViewById(R.id.hf);
+        hfa.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                switch(position){
-                    case 0:
-                         Intent i = new Intent(hair.this,forms.class);
-                         startActivity(i);
-                         break;
-                    case 1:
-                        Intent a = new Intent(hair.this,care.class);
-                        startActivity(a);
-                        break;
-                    case 2:
-                        Intent b = new Intent(hair.this,colour.class);
-                        startActivity(b);
-                        break;
-                    case 3:
-                        Intent c = new Intent(hair.this,styling.class);
-                        startActivity(c);
-                        break;
-                    case 4:
-                        Intent d = new Intent(hair.this,haircut.class);
-                        startActivity(d);
-                        break;
-                }
+            public void onClick(View v) {
+                Intent i = new Intent(hair.this,hairforms.class);
+                startActivity(i);
+            }
+        });
+        hca = findViewById(R.id.hc);
+        hca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(hair.this,haircare.class);
+                startActivity(a);
+            }
+        });
+        hcoa = findViewById(R.id.hco);
+        hcoa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent b = new Intent(hair.this,haircolor.class);
+                startActivity(b);
+            }
+        });
+        hsa = findViewById(R.id.hs);
+        hsa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent c = new Intent(hair.this,hairstyling.class);
+                startActivity(c);
+            }
+        });
+        hcua = findViewById(R.id.hcu);
+        hcua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent d = new Intent(hair.this,cutting.class);
+                startActivity(d);
             }
         });
 

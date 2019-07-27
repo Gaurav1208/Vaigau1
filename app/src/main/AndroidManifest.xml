@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Logout"></activity>
+        <activity android:name=".cutting"></activity>
+        <activity android:name=".hairstyling" />
+        <activity android:name=".haircolor" />
+        <activity android:name=".haircare" />
+        <activity android:name=".hairforms" />
+        <activity android:name=".Logout" />
         <activity android:name=".skindepletion" />
         <activity android:name=".skinbasic" />
         <activity android:name=".skincare" />
