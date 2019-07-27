@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "462539335773-ahd73bs3jjj4irlq51qbcvh24n6gqqfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaigau",
+            "certificate_hash": "e5171ff0367332a742c9d273eb4d34a04943a738"
+          }
+        },
+        {
           "client_id": "462539335773-v2035qicqbn6814qreufd9tmbmqvcqe6.apps.googleusercontent.com",
           "client_type": 3
         }

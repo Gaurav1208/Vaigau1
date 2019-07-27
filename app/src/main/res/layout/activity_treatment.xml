@@ -13,6 +13,23 @@
     android:id="@+id/spintreat"
     >
 </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spintreat"
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Add To Cart"
+        android:id="@+id/bt"
+        />
+
 
 
 
